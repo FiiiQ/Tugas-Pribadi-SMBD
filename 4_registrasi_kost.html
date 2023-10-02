@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="brand">
+            <h2>InfoKost</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="3_index.html">Kembali ke halaman utama</a></li>
+            </ul>
+        </div>
+    </nav>
+    <hr>
+    <br><br><br>
+    <div class="form">
+        <form action="4_registrasi_kost.php" method="post" class="register">
+            <h2>DAFTAR SEKARANG</h2>
+            <hr>
+            <table>
+                <tr>
+                    <td>Username</td>
+                    <td>:</td>
+                    <td><input type="text" name="username" id="username" placeholder="username"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>:</td>
+                    <td><input type="password" name="password" id="password" placeholder="******"></td>
+                </tr>
+                <tr>
+                    <td>WhatsApp</td>
+                    <td>:</td>
+                    <td><input type="number" name="whatsapp" id="whatsapp" placeholder="08xxxxxxxxxx"></td>
+                </tr>
+                <tr>
+                    <td>Nama pemilik kost</td>
+                    <td>:</td>
+                    <td><input type="text" name="napem" id="napem" placeholder="Nama Lengkap"></td>
+                </tr>
+                <tr>
+                    <td>Nama kost</td>
+                    <td>:</td>
+                    <td><input type="text" name="nakost" id="nakost" placeholder="Nama Kost"></td>
+                </tr>
+                <tr>
+                    <td>Foto bangunan/isi kost</td>
+                    <td>:</td>
+                    <td><input type="file" name="foto" id="foto" placeholder="Foto bangunan/isi kost"></td>
+                </tr>
+                <tr>
+                    <td>Lokasi kost</td>
+                    <td>:</td>
+                    <td><input type="text" name="lokasi" id="lokasi" placeholder="Nama Kabupaten/Kota"></td>
+                </tr>
+                <tr>
+                    <td>Fasilitas</td>
+                    <td>:</td>
+                    <td><textarea name="fasilitas" id="fasilitas" cols="30" rows="5" placeholder="Apa saja yang penyewa dapat dari kost anda"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Harga/Bulan</td>
+                    <td>:</td>
+                    <td><input type="text" name="harga" id="harga" placeholder="Rp 888.888" value="Rp "></td>
+                </tr>
+            </table>
+            <a href="5_login_kost.html"><input type="submit" value="Daftar"></a>
+        </form>
+    </div>
+    <div id="support_us">
+        <table>
+            <tr>
+                <td><a href="https://wa.me/62895617468064"><img src="wa.png" alt="whatsapp"></a></td>
+                <td><a href="https://wa.me/62895617468064">0895617468064</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.instagram.com/desu.fiiiq/"><img src="ig.png" alt="instagram"></a></td>
+                <td><a href="https://www.instagram.com/desu.fiiiq/">@desu.fiiiq</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/profile.php?id=100012730505212"><img src="fbm.png" alt="facebook messenger"></a></td>
+                <td><a href="https://www.facebook.com/profile.php?id=100012730505212">Taufiq Hidayat</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
